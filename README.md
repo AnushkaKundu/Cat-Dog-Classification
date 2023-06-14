@@ -4,7 +4,7 @@ This project is a binary classification of 1000 cat and dog images from the Kagg
 
 ## Data
 
-The data consists of 1000 PNG images of cats and dogs, which are split into 700 training images and 300 testing images. The images are stored in a folder named `Dog and Cat .png`, which contains two subfolders named `CAT` and `DOG`. The labels of the images are inferred from the subfolder names.
+The data consists of 1000 PNG images of cats and dogs, which are split into 700 training images and 300 testing images. The images are stored in a folder named `Dog and Cat .png` in the Kaggle database, which contains two subfolders named `CAT` and `DOG`. The labels of the images are inferred from the subfolder names.
 
 The data is loaded and processed using the `tf.keras.preprocessing.image.ImageDataGenerator` class and the `flow_from_dataframe` method, which creates data flows for training, validation, and testing purposes. The data flows apply some transformations to the images, such as rescaling, flipping, and shifting, to augment and normalize the data.
 
