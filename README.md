@@ -12,7 +12,7 @@ The data is loaded and processed using the `tf.keras.preprocessing.image.ImageDa
 
 The model is a Convolutional Neural Network (CNN) that consists of the following layers:
 
-- An input layer that takes an image of shape (224, 224, 3) as input
+- An input layer that takes an 224 x 224 px RGB images as input
 - Two convolutional layers with 16 and 32 filters, respectively, each followed by a max pooling layer
 - A global average pooling layer that reduces the dimensionality of the feature maps
 - Two dense layers with 128 units each and ReLU activation functions
