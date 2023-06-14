@@ -26,7 +26,7 @@ The model's performance on the testing data is visualized using a confusion matr
 
 The results show that the model has higher precision and recall for class 0 (CAT) than for class 1 (DOG), which means that it is more likely to correctly identify cat images than dog images. The model also has a higher f1-score for class 0 than for class 1, which means that it has a better balance between precision and recall for cat images than for dog images. The support shows that there are more cat images than dog images in the testing data.
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](./confusion_matrix.png)
 
 Classification Report:
 ----------------------
