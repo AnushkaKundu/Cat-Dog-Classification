@@ -16,7 +16,7 @@ The model is a Convolutional Neural Network (CNN) that consists of the following
 - Two convolutional layers with 16 and 32 filters, respectively, each followed by a max pooling layer
 - A global average pooling layer that reduces the dimensionality of the feature maps
 - Two dense layers with 128 units each and ReLU activation functions
-- An output layer with one unit and a sigmoid activation function that outputs a probability of belonging to class 1 (DOG)
+- An output layer with one unit and a sigmoid activation function that outputs a probability of belonging to class 0 (CAT) or class 1 (DOG).
 
 The model is compiled with the Adam optimizer, the binary cross-entropy loss function, and the accuracy metric. The model is trained for 100 epochs with early stopping and learning rate reduction callbacks. The model is evaluated on the testing data and achieves an accuracy of 76.67%.
 
